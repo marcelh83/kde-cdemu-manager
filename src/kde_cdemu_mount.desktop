@@ -1,0 +1,18 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=application/x-mds;application/x-mdx;application/x-b6t;application/x-ccd;application/x-raw-diskimage;application/x-apple-diskimage;application/x-cue;application/x-cdrdao-toc;application/x-xcdroast;application/x-cdi;application/x-cif;application/x-c2d;application/x-cd-image;application/x-gamecube-rom;application/x-saturn-rom;application/x-sega-cd-rom;application/x-wii-rom;application/x-nrg;
+Actions=mount
+StartupNotify=false
+X-KDE-StartupNotify=false
+
+[Desktop Action mount]
+Name=Mount Image
+Name[de]=Abbild einbinden
+Name[es]=Montar Imagen
+Name[fr]=Monter une image
+Name[it]=Monta Immagine
+Name[ru]=Смонтировать образ
+Name[uk]=Змонтувати образ
+Icon=media-optical
+Exec=kde_cdemu --mount %u

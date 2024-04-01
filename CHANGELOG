@@ -1,0 +1,60 @@
+KDE CDEmu Manager Changelog
+===========================
+(C) 2009-2024 by Marcel Hasler
+
+Changelog from 0.8.1 to 0.8.2:
+------------------------------
+* Added Italian translations
+
+Changelog from 0.8.0 to 0.8.1:
+------------------------------
+* Updated project files to require CMake 3.16
+
+Changelog from 0.7.3 to 0.8.0:
+------------------------------
+* Cleaned up and modernized code base
+* Improved device handling
+* Some bug fixes
+
+Changelog from 0.7.2 to 0.7.3:
+------------------------------
+* Added Ukrainian translations
+* Removed outdated and unmaintained translations
+
+Changelog from 0.7.1 to 0.7.2:
+------------------------------
+* Added Chinese Taiwan and French translations
+
+Changelog from 0.7 to 0.7.1:
+----------------------------
+* Fixed service menu entry showing for all files
+
+Changelog from 0.5 to 0.7:
+--------------------------
+* Ported to KF5
+* Improved the user interface
+* Added support for adding and removing devices
+* Added file history (thanks to Real-Gecko for the inspiration)
+
+Changelog from 0.4 to 0.5:
+--------------------------
+* Updated for CDEmu 2.0 (thanks to ava1ar for the patch)
+
+Changelog from 0.3.1 to 0.4:
+----------------------------
+* Updated for CDEmu 1.4.0
+
+Changelog from 0.3 to 0.3.1:
+----------------------------
+* Fixed MIME type definitions to include new libmirage types
+* Made the kde_cdemu_mount.desktop file compliant to the freedesktop.org Desktop Entry Specification
+
+Changelog from 0.2 to 0.3:
+--------------------------
+* Added support for the session bus
+
+Changelog from 0.1 to 0.2:
+--------------------------
+* Updated to CDEmu 1.2.0
+* Cleaned up the code
+* Improved build scripts

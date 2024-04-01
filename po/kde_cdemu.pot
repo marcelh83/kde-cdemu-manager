@@ -1,0 +1,176 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: mahasler@gmail.com\n"
+"POT-Creation-Date: 2024-04-01 17:53+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. i18n: file: src/mainwindow.ui:20
+#. i18n: ectx: property (windowTitle), widget (QMainWindow, MainWindow)
+#: po/rc.cpp:3 src/main.cpp:87 rc.cpp:3
+msgid "KDE CDEmu Manager"
+msgstr ""
+
+#. i18n: file: src/mainwindow.ui:58
+#. i18n: ectx: property (text), widget (QTreeWidget, deviceList)
+#: po/rc.cpp:6 rc.cpp:6
+msgid "Device"
+msgstr ""
+
+#. i18n: file: src/mainwindow.ui:63
+#. i18n: ectx: property (text), widget (QTreeWidget, deviceList)
+#: po/rc.cpp:9 rc.cpp:9
+msgid "Image"
+msgstr ""
+
+#. i18n: file: src/mainwindow.ui:86
+#. i18n: ectx: property (text), widget (QPushButton, addDevice)
+#: po/rc.cpp:12 rc.cpp:12
+msgid "Add Device"
+msgstr ""
+
+#. i18n: file: src/mainwindow.ui:93
+#. i18n: ectx: property (text), widget (QPushButton, removeDevice)
+#: po/rc.cpp:15 rc.cpp:15
+msgid "Remove Device"
+msgstr ""
+
+#. i18n: file: src/mainwindow.ui:114
+#. i18n: ectx: property (title), widget (QMenu, menuFile)
+#: po/rc.cpp:18 rc.cpp:18
+msgid "Fi&le"
+msgstr ""
+
+#. i18n: file: src/mainwindow.ui:119
+#. i18n: ectx: property (title), widget (QMenu, menuHistory)
+#: po/rc.cpp:21 rc.cpp:21
+msgid "His&tory"
+msgstr ""
+
+#. i18n: file: src/mainwindow.ui:124
+#. i18n: ectx: property (title), widget (QMenu, menuOptions)
+#: po/rc.cpp:24 rc.cpp:24
+msgid "Setti&ngs"
+msgstr ""
+
+#. i18n: file: src/mainwindow.ui:134
+#. i18n: ectx: property (text), widget (QMenu, menuOptions)
+#: po/rc.cpp:27 rc.cpp:27
+msgid "&Quit"
+msgstr ""
+
+#. i18n: file: src/mainwindow.ui:145
+#. i18n: ectx: property (text), widget (QMenu, menuOptions)
+#: po/rc.cpp:30 rc.cpp:30
+msgid "Show in System Tray"
+msgstr ""
+
+#: po/rc.cpp:31 rc.cpp:31
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#: po/rc.cpp:32 rc.cpp:32
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: src/devicelistitem.cpp:57
+msgid "Select image file"
+msgstr ""
+
+#: src/devicelistitem.cpp:62
+msgid "Unmount current image"
+msgstr ""
+
+#: src/exception.cpp:33
+msgid "The selected virtual device is in use."
+msgstr ""
+
+#: src/exception.cpp:36
+msgid "The selected virtual device is not available."
+msgstr ""
+
+#: src/exception.cpp:39
+msgid "All virtual devices are in use."
+msgstr ""
+
+#: src/exception.cpp:42
+msgid "The file doesn't exist."
+msgstr ""
+
+#: src/exception.cpp:45
+msgid "Unable to connect to the CDEmu daemon."
+msgstr ""
+
+#: src/exception.cpp:48
+msgid "An unknown error occured."
+msgstr ""
+
+#: src/main.cpp:88
+msgid "A KDE Frontend to CDEmu."
+msgstr ""
+
+#: src/main.cpp:89
+msgid "Copyright (c) 2009-2024 Marcel Hasler"
+msgstr ""
+
+#: src/main.cpp:91
+msgid "Marcel Hasler"
+msgstr ""
+
+#: src/main.cpp:91
+msgid "Author and Maintainer"
+msgstr ""
+
+#: src/main.cpp:106
+msgid "Mount an image."
+msgstr ""
+
+#: src/main.cpp:106
+msgid "file"
+msgstr ""
+
+#: src/main.cpp:109
+msgid "Unmount an image."
+msgstr ""
+
+#: src/main.cpp:109
+msgid "device number"
+msgstr ""
+
+#: src/main.cpp:112
+msgid "Show information about devices."
+msgstr ""
+
+#: src/mainwindow.cpp:129
+msgid "CDEmu daemon is running."
+msgstr ""
+
+#: src/mainwindow.cpp:132
+msgid "CDEmu daemon not running."
+msgstr ""
+
+#: src/mainwindow.cpp:178
+msgid "Select an image file"
+msgstr ""
+
+#: src/mainwindow.cpp:339
+msgid "Clear History"
+msgstr ""
+
+#: src/messagebox.cpp:31
+msgid "Error"
+msgstr ""

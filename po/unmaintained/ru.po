@@ -1,0 +1,190 @@
+# This file is part of KDE CDEmu Manager.
+# Copyright (C) 2020 Marcel Hasler
+# This file is distributed under the same license as the KDE CDEmu Manager package.
+#
+# Перепечин Владимир <vovochka@inetvl.ru>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: mahasler@gmail.com\n"
+"POT-Creation-Date: 2024-04-01 17:53+0200\n"
+"PO-Revision-Date: 2013-04-08 17:54+1100\n"
+"Last-Translator: Перепечин Владимир <vovochka@inetvl.ru>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.5\n"
+
+#. i18n: file: src/mainwindow.ui:20
+#. i18n: ectx: property (windowTitle), widget (QMainWindow, MainWindow)
+#: po/rc.cpp:3 src/main.cpp:87 rc.cpp:3
+msgid "KDE CDEmu Manager"
+msgstr "KDE CDEmu Manager"
+
+#. i18n: file: src/mainwindow.ui:58
+#. i18n: ectx: property (text), widget (QTreeWidget, deviceList)
+#: po/rc.cpp:6 rc.cpp:6
+msgid "Device"
+msgstr "Устройство"
+
+#. i18n: file: src/mainwindow.ui:63
+#. i18n: ectx: property (text), widget (QTreeWidget, deviceList)
+#: po/rc.cpp:9 rc.cpp:9
+msgid "Image"
+msgstr ""
+
+#. i18n: file: src/mainwindow.ui:86
+#. i18n: ectx: property (text), widget (QPushButton, addDevice)
+#: po/rc.cpp:12 rc.cpp:12
+#, fuzzy
+msgid "Add Device"
+msgstr "Устройство"
+
+#. i18n: file: src/mainwindow.ui:93
+#. i18n: ectx: property (text), widget (QPushButton, removeDevice)
+#: po/rc.cpp:15 rc.cpp:15
+#, fuzzy
+msgid "Remove Device"
+msgstr "Устройство"
+
+#. i18n: file: src/mainwindow.ui:114
+#. i18n: ectx: property (title), widget (QMenu, menuFile)
+#: po/rc.cpp:18 rc.cpp:18
+msgid "Fi&le"
+msgstr ""
+
+#. i18n: file: src/mainwindow.ui:119
+#. i18n: ectx: property (title), widget (QMenu, menuHistory)
+#: po/rc.cpp:21 rc.cpp:21
+msgid "His&tory"
+msgstr ""
+
+#. i18n: file: src/mainwindow.ui:124
+#. i18n: ectx: property (title), widget (QMenu, menuOptions)
+#: po/rc.cpp:24 rc.cpp:24
+msgid "Setti&ngs"
+msgstr ""
+
+#. i18n: file: src/mainwindow.ui:134
+#. i18n: ectx: property (text), widget (QMenu, menuOptions)
+#: po/rc.cpp:27 rc.cpp:27
+msgid "&Quit"
+msgstr ""
+
+#. i18n: file: src/mainwindow.ui:145
+#. i18n: ectx: property (text), widget (QMenu, menuOptions)
+#: po/rc.cpp:30 rc.cpp:30
+msgid "Show in System Tray"
+msgstr ""
+
+#: po/rc.cpp:31 rc.cpp:31
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Perepechin Vladimir"
+
+#: po/rc.cpp:32 rc.cpp:32
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "vovochka13@gmail.com"
+
+#: src/devicelistitem.cpp:57
+#, fuzzy
+msgid "Select image file"
+msgstr "Выберите образ"
+
+#: src/devicelistitem.cpp:62
+#, fuzzy
+msgid "Unmount current image"
+msgstr "Отмонтировать образ"
+
+#: src/exception.cpp:33
+msgid "The selected virtual device is in use."
+msgstr "Выбранное виртуальное устройство уже используется."
+
+#: src/exception.cpp:36
+msgid "The selected virtual device is not available."
+msgstr "Выбранное виртуальное устройство не доступно."
+
+#: src/exception.cpp:39
+msgid "All virtual devices are in use."
+msgstr "Все виртуальные устройства уже используются."
+
+#: src/exception.cpp:42
+msgid "The file doesn't exist."
+msgstr "Файл не существует."
+
+#: src/exception.cpp:45
+msgid "Unable to connect to the CDEmu daemon."
+msgstr "Не удается подключиться к сервису CDEmu."
+
+#: src/exception.cpp:48
+msgid "An unknown error occured."
+msgstr "Произошла неизвестная ошибка."
+
+#: src/main.cpp:88
+#, fuzzy
+msgid "A KDE Frontend to CDEmu."
+msgstr "KDE клиент для CDEmu"
+
+#: src/main.cpp:89
+#, fuzzy
+msgid "Copyright (c) 2009-2024 Marcel Hasler"
+msgstr "Copyright (c) 2009-2024 Marcel Hasler"
+
+#: src/main.cpp:91
+msgid "Marcel Hasler"
+msgstr "Marcel Hasler"
+
+#: src/main.cpp:91
+#, fuzzy
+msgid "Author and Maintainer"
+msgstr "Разработка и поддержка"
+
+#: src/main.cpp:106
+#, fuzzy
+msgid "Mount an image."
+msgstr "Смонтировать образ"
+
+#: src/main.cpp:106
+msgid "file"
+msgstr ""
+
+#: src/main.cpp:109
+#, fuzzy
+msgid "Unmount an image."
+msgstr "Отмонтировать образ"
+
+#: src/main.cpp:109
+msgid "device number"
+msgstr ""
+
+#: src/main.cpp:112
+#, fuzzy
+msgid "Show information about devices."
+msgstr "Показать информацию об устройствах"
+
+#: src/mainwindow.cpp:129
+#, fuzzy
+msgid "CDEmu daemon is running."
+msgstr "CDEmu сервис запущен."
+
+#: src/mainwindow.cpp:132
+msgid "CDEmu daemon not running."
+msgstr "CDEmu сервис не запущен."
+
+#: src/mainwindow.cpp:178
+#, fuzzy
+msgid "Select an image file"
+msgstr "Выберите образ"
+
+#: src/mainwindow.cpp:339
+msgid "Clear History"
+msgstr ""
+
+#: src/messagebox.cpp:31
+msgid "Error"
+msgstr "Ошибка"

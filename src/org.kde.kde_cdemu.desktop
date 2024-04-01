@@ -1,0 +1,27 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Exec=kde_cdemu
+Icon=media-optical
+Comment=A KDE Frontend to CDEmu
+Comment[de]=Eine KDE Oberfläche für CDEmu
+Comment[es]=Entorno grafico KDE de CDEmu
+Comment[fr]=Une interface KDE pour CDEmu
+Comment[it]=Un frontend KDE per CDEmu
+Comment[pl]=Graficzne zarządzanie CDEmu
+Comment[ro]=O interfaţă KDE pt. CDEmu
+Comment[ru]=KDE CDEmu клиент
+Comment[uk]=KDE клієнт для CDEmu
+Terminal=false
+Name=KDE CDEmu Manager
+GenericName=Manage virtual drives
+GenericName[de]=Virtuelle Laufwerke verwalten
+GenericName[es]=Manejador de unidades virtuales
+GenericName[fr]=Gérer des disques virtuels
+GenericName[it]=Gestisci unità virtuali
+GenericName[pl]=Zarządzanie napędami wirtualnymi
+GenericName[ro]=Administrează unităţile virtuale
+GenericName[ru]=Управение виртуальными устройствами
+GenericName[uk]=Керування віртуальними пристроями
+Categories=System;Qt;KDE;
+X-DBUS-StartupType=Unique
