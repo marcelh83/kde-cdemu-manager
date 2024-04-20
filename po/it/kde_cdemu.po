@@ -1,138 +1,131 @@
-# This file is part of KDE CDEmu Manager.
-# Copyright (C) 2020 Marcel Hasler
-# This file is distributed under the same license as the KDE CDEmu Manager package.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Dyrver Eriksson <dyrver.eriksson@gmail.com>, 2010, 2013.
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: mahasler@gmail.com\n"
-"POT-Creation-Date: 2024-04-01 17:53+0200\n"
-"PO-Revision-Date: 2013-01-12 23:11+0100\n"
-"Last-Translator: Dyrver Eriksson <dyrver.eriksson@gmail.com>\n"
-"Language-Team: Swedish <kde-i18n-de@kde.org>\n"
-"Language: sv\n"
+"POT-Creation-Date: 2024-04-20 12:51+0200\n"
+"PO-Revision-Date: 2024-03-28 10:07+0100\n"
+"Last-Translator: Marco Rodolfi <marco.rodolfi@tuta.io>\n"
+"Language-Team: \n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.5\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #. i18n: file: src/mainwindow.ui:20
 #. i18n: ectx: property (windowTitle), widget (QMainWindow, MainWindow)
-#: po/rc.cpp:3 src/main.cpp:87 rc.cpp:3
+#: build/Desktop-Debug/src/ui_mainwindow.h:123 po/rc.cpp:3 src/main.cpp:87
+#: rc.cpp:3
 msgid "KDE CDEmu Manager"
 msgstr "KDE CDEmu Manager"
 
-#. i18n: file: src/mainwindow.ui:58
-#. i18n: ectx: property (text), widget (QTreeWidget, deviceList)
-#: po/rc.cpp:6 rc.cpp:6
-msgid "Device"
-msgstr ""
-
-#. i18n: file: src/mainwindow.ui:63
-#. i18n: ectx: property (text), widget (QTreeWidget, deviceList)
-#: po/rc.cpp:9 rc.cpp:9
-msgid "Image"
-msgstr ""
-
-#. i18n: file: src/mainwindow.ui:86
-#. i18n: ectx: property (text), widget (QPushButton, addDevice)
-#: po/rc.cpp:12 rc.cpp:12
-msgid "Add Device"
-msgstr ""
-
-#. i18n: file: src/mainwindow.ui:93
-#. i18n: ectx: property (text), widget (QPushButton, removeDevice)
-#: po/rc.cpp:15 rc.cpp:15
-msgid "Remove Device"
-msgstr ""
-
-#. i18n: file: src/mainwindow.ui:114
-#. i18n: ectx: property (title), widget (QMenu, menuFile)
-#: po/rc.cpp:18 rc.cpp:18
-msgid "Fi&le"
-msgstr ""
-
-#. i18n: file: src/mainwindow.ui:119
-#. i18n: ectx: property (title), widget (QMenu, menuHistory)
-#: po/rc.cpp:21 rc.cpp:21
-msgid "His&tory"
-msgstr ""
-
-#. i18n: file: src/mainwindow.ui:124
-#. i18n: ectx: property (title), widget (QMenu, menuOptions)
-#: po/rc.cpp:24 rc.cpp:24
-msgid "Setti&ngs"
-msgstr ""
-
 #. i18n: file: src/mainwindow.ui:134
 #. i18n: ectx: property (text), widget (QMenu, menuOptions)
-#: po/rc.cpp:27 rc.cpp:27
+#: build/Desktop-Debug/src/ui_mainwindow.h:124 po/rc.cpp:27 rc.cpp:27
 msgid "&Quit"
-msgstr ""
+msgstr "&Esci"
 
 #. i18n: file: src/mainwindow.ui:145
 #. i18n: ectx: property (text), widget (QMenu, menuOptions)
-#: po/rc.cpp:30 rc.cpp:30
+#: build/Desktop-Debug/src/ui_mainwindow.h:125 po/rc.cpp:30 rc.cpp:30
 msgid "Show in System Tray"
-msgstr ""
+msgstr "Mostra nella Tray di Sistema"
+
+#. i18n: file: src/mainwindow.ui:63
+#. i18n: ectx: property (text), widget (QTreeWidget, deviceList)
+#: build/Desktop-Debug/src/ui_mainwindow.h:127 po/rc.cpp:9 rc.cpp:9
+msgid "Image"
+msgstr "Immagine"
+
+#. i18n: file: src/mainwindow.ui:58
+#. i18n: ectx: property (text), widget (QTreeWidget, deviceList)
+#: build/Desktop-Debug/src/ui_mainwindow.h:128 po/rc.cpp:6 rc.cpp:6
+msgid "Device"
+msgstr "Unità"
+
+#. i18n: file: src/mainwindow.ui:86
+#. i18n: ectx: property (text), widget (QPushButton, addDevice)
+#: build/Desktop-Debug/src/ui_mainwindow.h:129 po/rc.cpp:12 rc.cpp:12
+msgid "Add Device"
+msgstr "Aggiungi Unità"
+
+#. i18n: file: src/mainwindow.ui:93
+#. i18n: ectx: property (text), widget (QPushButton, removeDevice)
+#: build/Desktop-Debug/src/ui_mainwindow.h:130 po/rc.cpp:15 rc.cpp:15
+msgid "Remove Device"
+msgstr "Rimuovi Unità"
+
+#. i18n: file: src/mainwindow.ui:114
+#. i18n: ectx: property (title), widget (QMenu, menuFile)
+#: build/Desktop-Debug/src/ui_mainwindow.h:131 po/rc.cpp:18 rc.cpp:18
+msgid "Fi&le"
+msgstr "Fi&le"
+
+#. i18n: file: src/mainwindow.ui:119
+#. i18n: ectx: property (title), widget (QMenu, menuHistory)
+#: build/Desktop-Debug/src/ui_mainwindow.h:132 po/rc.cpp:21 rc.cpp:21
+msgid "His&tory"
+msgstr "Sto&rico"
+
+#. i18n: file: src/mainwindow.ui:124
+#. i18n: ectx: property (title), widget (QMenu, menuOptions)
+#: build/Desktop-Debug/src/ui_mainwindow.h:133 po/rc.cpp:24 rc.cpp:24
+msgid "Setti&ngs"
+msgstr "I&mpostazioni"
 
 #: po/rc.cpp:31 rc.cpp:31
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Dyrver Eriksson"
+msgstr "Marco Rodolfi"
 
 #: po/rc.cpp:32 rc.cpp:32
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "dyrver.eriksson@gmail.com"
+msgstr "marco.rodolfi@tuta.io"
 
 #: src/devicelistitem.cpp:57
-#, fuzzy
 msgid "Select image file"
-msgstr "Välj Avbild"
+msgstr "Seleziona file immagine"
 
 #: src/devicelistitem.cpp:62
-#, fuzzy
 msgid "Unmount current image"
-msgstr "Avmontera en avbild"
+msgstr "Espelli immagine corrente"
 
 #: src/exception.cpp:33
-#, fuzzy
 msgid "The selected virtual device is in use."
-msgstr "Kunde inte montera en avbild! Alla virtuella enheter är upptagna."
+msgstr "L'unità virtuale selezionata è in uso."
 
 #: src/exception.cpp:36
 msgid "The selected virtual device is not available."
-msgstr ""
+msgstr "L'unità virtuale selezionata non è disponibile."
 
 #: src/exception.cpp:39
-#, fuzzy
 msgid "All virtual devices are in use."
-msgstr "Kunde inte montera en avbild! Alla virtuella enheter är upptagna."
+msgstr "Tutte le unità virtuali sono già in uso."
 
 #: src/exception.cpp:42
-#, fuzzy
 msgid "The file doesn't exist."
-msgstr "Kunde inte montera avbild! Filen existerar inte."
+msgstr "Il file non esiste."
 
 #: src/exception.cpp:45
 msgid "Unable to connect to the CDEmu daemon."
-msgstr ""
+msgstr "Non riesco a collegarmi al demone di CDEmu."
 
 #: src/exception.cpp:48
-#, fuzzy
 msgid "An unknown error occured."
-msgstr "Kunde inte montera avbild! Ett okänt fel uppstod."
+msgstr "E' avvenuto un errore sconosciuto."
 
 #: src/main.cpp:88
-#, fuzzy
 msgid "A KDE Frontend to CDEmu."
-msgstr "En KDE framände till CDEmu"
+msgstr "Un Frontend di CDEmu per KDE."
 
 #: src/main.cpp:89
-#, fuzzy
 msgid "Copyright (c) 2009-2024 Marcel Hasler"
 msgstr "Copyright (c) 2009-2024 Marcel Hasler"
 
@@ -141,51 +134,45 @@ msgid "Marcel Hasler"
 msgstr "Marcel Hasler"
 
 #: src/main.cpp:91
-#, fuzzy
 msgid "Author and Maintainer"
-msgstr "Utvecklare & Underhållare"
+msgstr "Autore e Manutentore"
 
 #: src/main.cpp:106
-#, fuzzy
 msgid "Mount an image."
-msgstr "Montera en avbild"
+msgstr "Monta un'immagine."
 
 #: src/main.cpp:106
 msgid "file"
-msgstr ""
+msgstr "file"
 
 #: src/main.cpp:109
-#, fuzzy
 msgid "Unmount an image."
-msgstr "Avmontera en avbild"
+msgstr "Espelli un'immagine."
 
 #: src/main.cpp:109
 msgid "device number"
-msgstr ""
+msgstr "numero dispositivo"
 
 #: src/main.cpp:112
-#, fuzzy
 msgid "Show information about devices."
-msgstr "Visa information om enheter"
+msgstr "Mostra informazioni riguardo le unità."
 
 #: src/mainwindow.cpp:129
-#, fuzzy
 msgid "CDEmu daemon is running."
-msgstr "CDEmu bakgrundsprogram körs."
+msgstr "Il demone di CDEmu è in esecuzione."
 
 #: src/mainwindow.cpp:132
 msgid "CDEmu daemon not running."
-msgstr "CDEmu bakgrundsprogram körs inte."
+msgstr "Il demone di CDEmu non è in esecuzione."
 
 #: src/mainwindow.cpp:178
-#, fuzzy
 msgid "Select an image file"
-msgstr "Välj Avbild"
+msgstr "Seleziona un file immagine"
 
 #: src/mainwindow.cpp:339
 msgid "Clear History"
-msgstr ""
+msgstr "Svuota lo Storico"
 
 #: src/messagebox.cpp:31
 msgid "Error"
-msgstr "Fel"
+msgstr "Errore"

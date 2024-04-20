@@ -5,21 +5,24 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+set(BUILD_WITH_QT6 ON)
+
 find_package(ECM REQUIRED NO_MODULE)
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH})
 
 include(ECMInstallIcons)
 
-include(KDEInstallDirs)
+include(KDEInstallDirs6)
 include(KDECMakeSettings)
 include(KDECompilerSettings)
 
 kde_enable_exceptions()
 
-find_package(KF5 REQUIRED COMPONENTS ConfigWidgets DBusAddons I18n Notifications XmlGui)
-find_package(Qt5 REQUIRED COMPONENTS Core Widgets)
+find_package(KF6 REQUIRED COMPONENTS ConfigWidgets CoreAddons DBusAddons I18n Notifications StatusNotifierItem XmlGui)
+find_package(Qt6 REQUIRED COMPONENTS Core Widgets)
 
-set(KDE_CDEMU_VERSION "0.8.2")
+set(KDE_CDEMU_VERSION "0.9")
 
 add_subdirectory(src)
-add_subdirectory(po)
+
+ki18n_install(po)

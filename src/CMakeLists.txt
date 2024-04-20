@@ -23,15 +23,17 @@ ki18n_wrap_ui(kde_cdemu_SRCS mainwindow.ui)
 add_executable(kde_cdemu ${kde_cdemu_SRCS} ${kde_cdemu_HDRS})
 
 target_link_libraries(kde_cdemu
-    KF5::ConfigWidgets
-    KF5::DBusAddons
-    KF5::I18n
-    KF5::Notifications
-    KF5::XmlGui
-    Qt5::Core
-    Qt5::Widgets
+    KF6::ConfigWidgets
+    KF6::CoreAddons
+    KF6::DBusAddons
+    KF6::I18n
+    KF6::Notifications
+    KF6::StatusNotifierItem
+    KF6::XmlGui
+    Qt6::Core
+    Qt6::Widgets
 )
 
-install(TARGETS kde_cdemu DESTINATION ${BIN_INSTALL_DIR})
-install(FILES kde_cdemu_mount.desktop DESTINATION ${SERVICES_INSTALL_DIR}/ServiceMenus)
-install(FILES org.kde.kde_cdemu.desktop DESTINATION ${XDG_APPS_INSTALL_DIR})
+install(TARGETS kde_cdemu DESTINATION ${KDE_INSTALL_BINDIR})
+install(FILES kde_cdemu_mount.desktop DESTINATION ${KDE_INSTALL_DATADIR}/kio/servicemenus)
+install(FILES org.kde.kde_cdemu.desktop DESTINATION ${KDE_INSTALL_APPDIR})

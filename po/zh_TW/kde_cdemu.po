@@ -2,133 +2,130 @@
 # Copyright (C) 2020 Marcel Hasler
 # This file is distributed under the same license as the KDE CDEmu Manager package.
 #
-# Перепечин Владимир <vovochka@inetvl.ru>, 2013.
+# BrLi <brli@chakralinux.org>, 2016.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: mahasler@gmail.com\n"
-"POT-Creation-Date: 2024-04-01 17:53+0200\n"
-"PO-Revision-Date: 2013-04-08 17:54+1100\n"
-"Last-Translator: Перепечин Владимир <vovochka@inetvl.ru>\n"
-"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
-"Language: ru\n"
+"POT-Creation-Date: 2024-04-20 12:51+0200\n"
+"PO-Revision-Date: 2020-09-19 21:59+0200\n"
+"Last-Translator: BrLi <brli@chakralinux.org>\n"
+"Language-Team: Chinese <kde-i18n-de@kde.org>\n"
+"Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 20.08.1\n"
 
 #. i18n: file: src/mainwindow.ui:20
 #. i18n: ectx: property (windowTitle), widget (QMainWindow, MainWindow)
-#: po/rc.cpp:3 src/main.cpp:87 rc.cpp:3
+#: build/Desktop-Debug/src/ui_mainwindow.h:123 po/rc.cpp:3 src/main.cpp:87
+#: rc.cpp:3
 msgid "KDE CDEmu Manager"
-msgstr "KDE CDEmu Manager"
-
-#. i18n: file: src/mainwindow.ui:58
-#. i18n: ectx: property (text), widget (QTreeWidget, deviceList)
-#: po/rc.cpp:6 rc.cpp:6
-msgid "Device"
-msgstr "Устройство"
-
-#. i18n: file: src/mainwindow.ui:63
-#. i18n: ectx: property (text), widget (QTreeWidget, deviceList)
-#: po/rc.cpp:9 rc.cpp:9
-msgid "Image"
-msgstr ""
-
-#. i18n: file: src/mainwindow.ui:86
-#. i18n: ectx: property (text), widget (QPushButton, addDevice)
-#: po/rc.cpp:12 rc.cpp:12
-#, fuzzy
-msgid "Add Device"
-msgstr "Устройство"
-
-#. i18n: file: src/mainwindow.ui:93
-#. i18n: ectx: property (text), widget (QPushButton, removeDevice)
-#: po/rc.cpp:15 rc.cpp:15
-#, fuzzy
-msgid "Remove Device"
-msgstr "Устройство"
-
-#. i18n: file: src/mainwindow.ui:114
-#. i18n: ectx: property (title), widget (QMenu, menuFile)
-#: po/rc.cpp:18 rc.cpp:18
-msgid "Fi&le"
-msgstr ""
-
-#. i18n: file: src/mainwindow.ui:119
-#. i18n: ectx: property (title), widget (QMenu, menuHistory)
-#: po/rc.cpp:21 rc.cpp:21
-msgid "His&tory"
-msgstr ""
-
-#. i18n: file: src/mainwindow.ui:124
-#. i18n: ectx: property (title), widget (QMenu, menuOptions)
-#: po/rc.cpp:24 rc.cpp:24
-msgid "Setti&ngs"
-msgstr ""
+msgstr "KDE CDEmu 管理員"
 
 #. i18n: file: src/mainwindow.ui:134
 #. i18n: ectx: property (text), widget (QMenu, menuOptions)
-#: po/rc.cpp:27 rc.cpp:27
+#: build/Desktop-Debug/src/ui_mainwindow.h:124 po/rc.cpp:27 rc.cpp:27
 msgid "&Quit"
-msgstr ""
+msgstr "離開(&Q)"
 
 #. i18n: file: src/mainwindow.ui:145
 #. i18n: ectx: property (text), widget (QMenu, menuOptions)
-#: po/rc.cpp:30 rc.cpp:30
+#: build/Desktop-Debug/src/ui_mainwindow.h:125 po/rc.cpp:30 rc.cpp:30
 msgid "Show in System Tray"
-msgstr ""
+msgstr "在系統匣顯示"
+
+#. i18n: file: src/mainwindow.ui:63
+#. i18n: ectx: property (text), widget (QTreeWidget, deviceList)
+#: build/Desktop-Debug/src/ui_mainwindow.h:127 po/rc.cpp:9 rc.cpp:9
+msgid "Image"
+msgstr "映像檔"
+
+#. i18n: file: src/mainwindow.ui:58
+#. i18n: ectx: property (text), widget (QTreeWidget, deviceList)
+#: build/Desktop-Debug/src/ui_mainwindow.h:128 po/rc.cpp:6 rc.cpp:6
+msgid "Device"
+msgstr "裝置"
+
+#. i18n: file: src/mainwindow.ui:86
+#. i18n: ectx: property (text), widget (QPushButton, addDevice)
+#: build/Desktop-Debug/src/ui_mainwindow.h:129 po/rc.cpp:12 rc.cpp:12
+#, fuzzy
+msgid "Add Device"
+msgstr "新增裝置"
+
+#. i18n: file: src/mainwindow.ui:93
+#. i18n: ectx: property (text), widget (QPushButton, removeDevice)
+#: build/Desktop-Debug/src/ui_mainwindow.h:130 po/rc.cpp:15 rc.cpp:15
+#, fuzzy
+msgid "Remove Device"
+msgstr "移除裝置"
+
+#. i18n: file: src/mainwindow.ui:114
+#. i18n: ectx: property (title), widget (QMenu, menuFile)
+#: build/Desktop-Debug/src/ui_mainwindow.h:131 po/rc.cpp:18 rc.cpp:18
+msgid "Fi&le"
+msgstr "檔案(&F)"
+
+#. i18n: file: src/mainwindow.ui:119
+#. i18n: ectx: property (title), widget (QMenu, menuHistory)
+#: build/Desktop-Debug/src/ui_mainwindow.h:132 po/rc.cpp:21 rc.cpp:21
+msgid "His&tory"
+msgstr "歷史紀錄(&T)"
+
+#. i18n: file: src/mainwindow.ui:124
+#. i18n: ectx: property (title), widget (QMenu, menuOptions)
+#: build/Desktop-Debug/src/ui_mainwindow.h:133 po/rc.cpp:24 rc.cpp:24
+msgid "Setti&ngs"
+msgstr "設定(&S)"
 
 #: po/rc.cpp:31 rc.cpp:31
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Perepechin Vladimir"
+msgstr "Chaoting Liu"
 
 #: po/rc.cpp:32 rc.cpp:32
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "vovochka13@gmail.com"
+msgstr "brli@chakralinux.org"
 
 #: src/devicelistitem.cpp:57
-#, fuzzy
 msgid "Select image file"
-msgstr "Выберите образ"
+msgstr "選取映像檔"
 
 #: src/devicelistitem.cpp:62
-#, fuzzy
 msgid "Unmount current image"
-msgstr "Отмонтировать образ"
+msgstr "卸載目前的映像檔"
 
 #: src/exception.cpp:33
 msgid "The selected virtual device is in use."
-msgstr "Выбранное виртуальное устройство уже используется."
+msgstr "選取的虛擬裝置正在使用中"
 
 #: src/exception.cpp:36
 msgid "The selected virtual device is not available."
-msgstr "Выбранное виртуальное устройство не доступно."
+msgstr "選取的虛擬裝置無法使用"
 
 #: src/exception.cpp:39
 msgid "All virtual devices are in use."
-msgstr "Все виртуальные устройства уже используются."
+msgstr "所有的虛擬裝置皆在使用中"
 
 #: src/exception.cpp:42
 msgid "The file doesn't exist."
-msgstr "Файл не существует."
+msgstr "檔案不存在"
 
 #: src/exception.cpp:45
 msgid "Unable to connect to the CDEmu daemon."
-msgstr "Не удается подключиться к сервису CDEmu."
+msgstr "無法連接到 CDEmu 背景程式。"
 
 #: src/exception.cpp:48
 msgid "An unknown error occured."
-msgstr "Произошла неизвестная ошибка."
+msgstr "未知的錯誤。"
 
 #: src/main.cpp:88
-#, fuzzy
 msgid "A KDE Frontend to CDEmu."
-msgstr "KDE клиент для CDEmu"
+msgstr "CDEmu 軟體的 KDE 前端程式"
 
 #: src/main.cpp:89
 #, fuzzy
@@ -140,51 +137,45 @@ msgid "Marcel Hasler"
 msgstr "Marcel Hasler"
 
 #: src/main.cpp:91
-#, fuzzy
 msgid "Author and Maintainer"
-msgstr "Разработка и поддержка"
+msgstr "作者與維護者"
 
 #: src/main.cpp:106
-#, fuzzy
 msgid "Mount an image."
-msgstr "Смонтировать образ"
+msgstr "掛載一個映像檔"
 
 #: src/main.cpp:106
 msgid "file"
-msgstr ""
+msgstr "檔案"
 
 #: src/main.cpp:109
-#, fuzzy
 msgid "Unmount an image."
-msgstr "Отмонтировать образ"
+msgstr "卸載一個映像檔"
 
 #: src/main.cpp:109
 msgid "device number"
-msgstr ""
+msgstr "裝置編號"
 
 #: src/main.cpp:112
-#, fuzzy
 msgid "Show information about devices."
-msgstr "Показать информацию об устройствах"
+msgstr "顯示裝置資訊"
 
 #: src/mainwindow.cpp:129
-#, fuzzy
 msgid "CDEmu daemon is running."
-msgstr "CDEmu сервис запущен."
+msgstr "CDEmu 背景程式已執行。"
 
 #: src/mainwindow.cpp:132
 msgid "CDEmu daemon not running."
-msgstr "CDEmu сервис не запущен."
+msgstr "CDEmu 背景程式未執行。"
 
 #: src/mainwindow.cpp:178
-#, fuzzy
 msgid "Select an image file"
-msgstr "Выберите образ"
+msgstr "選擇一個映像檔"
 
 #: src/mainwindow.cpp:339
 msgid "Clear History"
-msgstr ""
+msgstr "清除歷史紀錄"
 
 #: src/messagebox.cpp:31
 msgid "Error"
-msgstr "Ошибка"
+msgstr "錯誤"

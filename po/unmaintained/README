@@ -1,2 +1,0 @@
-If you want to update one of the currently unmaintained translations, please move the file to the
-parent directory and run messages.sh to merge all changes made since the last update.

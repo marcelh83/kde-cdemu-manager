@@ -1,6 +1,10 @@
 KDE CDEmu Manager Changelog
 ===========================
-(C) 2009-2024 by Marcel Hasler
+(C) 2009-2024 Marcel Hasler
+
+Changelog from 0.8.2 to 0.9:
+----------------------------
+* Ported to KF6
 
 Changelog from 0.8.1 to 0.8.2:
 ------------------------------
